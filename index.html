@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>All Star Carpet Care | Carpet, Tile, Furniture & Rug Cleaning — Family Owned Since 1996</title>
+<meta name="description" content="All Star Carpet Care has been cleaning carpets, tile, furniture and rugs across the Long Beach area since 1996. Family owned. Honest pricing. Call 562-397-3993." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --navy: #16243f;
+    --navy-deep: #0f1a2e;
+    --navy-soft: #1f3050;
+    --gold: #c9a961;
+    --gold-bright: #e0c178;
+    --gold-deep: #a88a47;
+    --maroon: #8b2635;
+    --maroon-deep: #6b1c28;
+    --cream: #f5efe3;
+    --cream-warm: #ede4d1;
+    --paper: #faf6ec;
+    --ink: #14192a;
+    --ink-soft: #3a4257;
+    --line: rgba(20, 25, 42, 0.12);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Outfit', system-ui, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  img, svg { display: block; max-width: 100%; }
+
+  .wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ---------- ANNOUNCEMENT BAR ---------- */
+  .top-bar {
+    background: var(--navy-deep);
+    color: var(--cream);
+    font-size: 13px;
+    padding: 8px 0;
+    text-align: center;
+    letter-spacing: 0.04em;
+  }
+  .top-bar strong { color: var(--gold-bright); font-weight: 600; }
+  .top-bar .sep { opacity: 0.4; margin: 0 12px; }
+
+  /* ---------- HEADER ---------- */
+  header.site {
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(8px);
+    background: rgba(250, 246, 236, 0.92);
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+    gap: 24px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+  }
+  .brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+  }
+  .brand-text .top {
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    color: var(--navy);
+  }
+  .brand-text .bot {
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--maroon);
+    margin-top: 4px;
+    font-weight: 600;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+  }
+  nav a {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink-soft);
+    transition: color .2s;
+    position: relative;
+  }
+  nav a:hover { color: var(--maroon); }
+  .cta-phone {
+    background: var(--maroon);
+    color: var(--cream) !important;
+    padding: 11px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    transition: background .2s, transform .2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--maroon-deep);
+  }
+  .cta-phone:hover { background: var(--maroon-deep); transform: translateY(-1px); }
+  .menu-btn { display: none; background: none; border: 0; cursor: pointer; padding: 8px; }
+  .menu-btn svg { width: 26px; height: 26px; }
+
+  /* ---------- LOGO MARK ---------- */
+  .logo-mark {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+  }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    position: relative;
+    background:
+      radial-gradient(ellipse 80% 60% at 80% 20%, rgba(201, 169, 97, 0.12), transparent 60%),
+      linear-gradient(180deg, var(--navy) 0%, var(--navy-deep) 100%);
+    color: var(--cream);
+    padding: 100px 0 120px;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(201,169,97,0.18) 1px, transparent 0);
+    background-size: 28px 28px;
+    opacity: 0.4;
+    pointer-events: none;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    left: 0; right: 0; bottom: -1px;
+    height: 80px;
+    background: linear-gradient(180deg, transparent, var(--paper));
+    pointer-events: none;
+  }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 60px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--gold-bright);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .eyebrow::before, .eyebrow::after {
+    content: '';
+    width: 24px;
+    height: 1px;
+    background: var(--gold);
+  }
+  .hero h1 {
+    font-size: clamp(42px, 6vw, 76px);
+    font-weight: 800;
+    color: var(--cream);
+    margin-bottom: 24px;
+  }
+  .hero h1 em {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--gold-bright);
+    display: block;
+  }
+  .hero p.lede {
+    font-size: 18px;
+    color: rgba(245, 239, 227, 0.78);
+    max-width: 520px;
+    margin-bottom: 40px;
+  }
+  .hero-ctas {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 28px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    transition: all .2s;
+    cursor: pointer;
+    border: 0;
+  }
+  .btn-gold {
+    background: var(--gold);
+    color: var(--navy-deep);
+    border: 1px solid var(--gold-deep);
+  }
+  .btn-gold:hover { background: var(--gold-bright); transform: translateY(-1px); box-shadow: 0 8px 24px rgba(201,169,97,0.3); }
+  .btn-outline {
+    background: transparent;
+    color: var(--cream);
+    border: 1px solid rgba(245, 239, 227, 0.3);
+  }
+  .btn-outline:hover { border-color: var(--gold-bright); color: var(--gold-bright); }
+
+  .hero-stats {
+    display: flex;
+    gap: 40px;
+    margin-top: 56px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(245, 239, 227, 0.12);
+  }
+  .stat .num {
+    font-family: 'Fraunces', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--gold-bright);
+    line-height: 1;
+  }
+  .stat .label {
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(245, 239, 227, 0.6);
+    margin-top: 8px;
+  }
+
+  /* hero badge / mark on right */
+  .hero-mark {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-mark .ring {
+    width: 100%;
+    max-width: 420px;
+    aspect-ratio: 1;
+    border: 1px solid rgba(201, 169, 97, 0.2);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-mark .ring::before {
+    content: '';
+    position: absolute;
+    inset: 24px;
+    border: 1px solid rgba(201, 169, 97, 0.14);
+    border-radius: 50%;
+  }
+  .hero-mark .ring::after {
+    content: '';
+    position: absolute;
+    inset: 48px;
+    border: 1px dashed rgba(201, 169, 97, 0.18);
+    border-radius: 50%;
+    animation: spin 80s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .hero-mark .seal-text {
+    position: absolute;
+    inset: 0;
+    animation: spin 60s linear infinite;
+  }
+  .hero-mark svg.big-logo {
+    width: 62%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* ---------- SERVICES STRIP ---------- */
+  .services {
+    padding: 110px 0;
+    background: var(--paper);
+    position: relative;
+  }
+  .section-head {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto 64px;
+  }
+  .section-head .eyebrow {
+    color: var(--maroon);
+    justify-content: center;
+    display: flex;
+  }
+  .section-head .eyebrow::before, .section-head .eyebrow::after {
+    background: var(--maroon);
+  }
+  .section-head h2 {
+    font-size: clamp(34px, 4.5vw, 54px);
+    color: var(--navy);
+    margin-bottom: 18px;
+  }
+  .section-head h2 em { font-style: italic; color: var(--maroon); font-weight: 400; }
+  .section-head p {
+    font-size: 17px;
+    color: var(--ink-soft);
+  }
+
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+  .svc-card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 36px 28px;
+    position: relative;
+    transition: all .3s;
+    overflow: hidden;
+  }
+  .svc-card::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    background: var(--gold);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform .3s;
+  }
+  .svc-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(20, 25, 42, 0.08); }
+  .svc-card:hover::before { transform: scaleY(1); }
+  .svc-icon {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--navy), var(--navy-soft));
+    color: var(--gold-bright);
+    border-radius: 8px;
+    margin-bottom: 24px;
+  }
+  .svc-icon svg { width: 28px; height: 28px; }
+  .svc-card h3 {
+    font-size: 24px;
+    color: var(--navy);
+    margin-bottom: 10px;
+  }
+  .svc-card p {
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.65;
+  }
+  .svc-num {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    font-family: 'Fraunces', serif;
+    font-size: 14px;
+    color: var(--gold);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+  }
+
+  /* ---------- ABOUT / EST 1996 ---------- */
+  .about {
+    background: linear-gradient(180deg, var(--paper), var(--cream-warm));
+    padding: 120px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+  .about-visual {
+    position: relative;
+  }
+  .est-card {
+    background: var(--navy-deep);
+    color: var(--cream);
+    border-radius: 8px;
+    padding: 48px 40px;
+    text-align: center;
+    border: 1px solid var(--navy-soft);
+    position: relative;
+    overflow: hidden;
+  }
+  .est-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 50% 0%, rgba(201,169,97,0.2), transparent 70%);
+    pointer-events: none;
+  }
+  .est-card .since {
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    color: var(--gold-bright);
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    position: relative;
+  }
+  .est-card .year {
+    font-family: 'Fraunces', serif;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.9;
+    color: var(--cream);
+    margin-bottom: 16px;
+    letter-spacing: -0.04em;
+    position: relative;
+  }
+  .est-card .year span { color: var(--gold-bright); font-style: italic; font-weight: 400; }
+  .est-card .tag {
+    font-size: 13px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(245, 239, 227, 0.6);
+    position: relative;
+  }
+  .stars-row {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin: 28px 0 0;
+    position: relative;
+  }
+  .stars-row svg { width: 18px; height: 18px; color: var(--gold-bright); }
+
+  .about-copy h2 {
+    font-size: clamp(34px, 4.2vw, 52px);
+    color: var(--navy);
+    margin-bottom: 24px;
+  }
+  .about-copy h2 em { font-style: italic; color: var(--maroon); font-weight: 400; }
+  .about-copy p {
+    font-size: 17px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  .about-copy .signature {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 22px;
+    color: var(--navy);
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+  }
+  .about-copy .signature small {
+    display: block;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-top: 6px;
+    font-weight: 500;
+  }
+
+  /* ---------- PROCESS ---------- */
+  .process {
+    background: var(--navy);
+    color: var(--cream);
+    padding: 120px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .process::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle at 1px 1px, rgba(201,169,97,0.12) 1px, transparent 0);
+    background-size: 32px 32px;
+    opacity: 0.5;
+  }
+  .process .section-head h2 { color: var(--cream); }
+  .process .section-head h2 em { color: var(--gold-bright); }
+  .process .section-head p { color: rgba(245,239,227,0.7); }
+  .process .section-head .eyebrow { color: var(--gold-bright); }
+  .process .section-head .eyebrow::before, .process .section-head .eyebrow::after { background: var(--gold); }
+
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    position: relative;
+    z-index: 1;
+  }
+  .step {
+    position: relative;
+    padding-top: 24px;
+  }
+  .step .step-num {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--gold-bright);
+    line-height: 1;
+    margin-bottom: 16px;
+    opacity: 0.9;
+  }
+  .step h4 {
+    font-size: 22px;
+    color: var(--cream);
+    margin-bottom: 10px;
+  }
+  .step p {
+    font-size: 14px;
+    color: rgba(245,239,227,0.7);
+    line-height: 1.65;
+  }
+
+  /* ---------- TESTIMONIALS ---------- */
+  .testimonials {
+    background: var(--cream);
+    padding: 120px 0;
+  }
+  .quote-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+  .quote-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 36px 32px;
+    border: 1px solid var(--line);
+    position: relative;
+  }
+  .quote-card .stars {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 18px;
+    color: var(--gold);
+  }
+  .quote-card .stars svg { width: 16px; height: 16px; }
+  .quote-card blockquote {
+    font-family: 'Fraunces', serif;
+    font-size: 19px;
+    line-height: 1.45;
+    color: var(--navy);
+    margin-bottom: 24px;
+    font-weight: 500;
+  }
+  .quote-card .author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .quote-card .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--navy), var(--navy-soft));
+    color: var(--gold-bright);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .quote-card .name {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--navy);
+  }
+  .quote-card .meta {
+    font-size: 12px;
+    color: var(--ink-soft);
+  }
+
+  /* ---------- SERVICE AREA ---------- */
+  .area {
+    padding: 110px 0;
+    background: var(--paper);
+  }
+  .area-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+  .area h2 {
+    font-size: clamp(34px, 4.2vw, 52px);
+    color: var(--navy);
+    margin-bottom: 24px;
+  }
+  .area h2 em { font-style: italic; color: var(--maroon); font-weight: 400; }
+  .area p {
+    font-size: 17px;
+    color: var(--ink-soft);
+    margin-bottom: 32px;
+  }
+  .city-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .city {
+    background: #fff;
+    border: 1px solid var(--line);
+    color: var(--navy);
+    padding: 8px 16px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .city.primary {
+    background: var(--navy);
+    color: var(--cream);
+    border-color: var(--navy);
+  }
+
+  /* ---------- BIG CTA ---------- */
+  .big-cta {
+    background:
+      linear-gradient(135deg, rgba(15,26,46,0.95), rgba(15,26,46,0.85)),
+      radial-gradient(circle at 80% 50%, var(--maroon), var(--navy-deep));
+    color: var(--cream);
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .big-cta::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle at 1px 1px, rgba(201,169,97,0.18) 1px, transparent 0);
+    background-size: 28px 28px;
+    opacity: 0.5;
+  }
+  .big-cta h2 {
+    font-size: clamp(38px, 5.5vw, 64px);
+    color: var(--cream);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .big-cta h2 em { font-style: italic; color: var(--gold-bright); font-weight: 400; }
+  .big-cta p {
+    font-size: 18px;
+    color: rgba(245,239,227,0.78);
+    max-width: 560px;
+    margin: 0 auto 40px;
+    position: relative;
+  }
+  .big-cta .phone-num {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(36px, 5vw, 56px);
+    color: var(--gold-bright);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin-bottom: 8px;
+    position: relative;
+  }
+  .big-cta .phone-num a { color: inherit; }
+  .big-cta .phone-sub {
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(245,239,227,0.5);
+    position: relative;
+    margin-bottom: 32px;
+  }
+  .cta-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer.site {
+    background: var(--navy-deep);
+    color: var(--cream);
+    padding: 70px 0 30px;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 48px;
+    margin-bottom: 56px;
+  }
+  footer.site h5 {
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold-bright);
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+  }
+  footer.site ul { list-style: none; }
+  footer.site li { margin-bottom: 10px; }
+  footer.site a {
+    color: rgba(245,239,227,0.7);
+    font-size: 14px;
+    transition: color .2s;
+  }
+  footer.site a:hover { color: var(--gold-bright); }
+  .footer-brand p {
+    color: rgba(245,239,227,0.6);
+    font-size: 14px;
+    margin-top: 16px;
+    line-height: 1.7;
+    max-width: 320px;
+  }
+  .legal {
+    border-top: 1px solid rgba(245,239,227,0.1);
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    color: rgba(245,239,227,0.5);
+    font-size: 12px;
+  }
+
+  /* ---------- MOBILE ---------- */
+  @media (max-width: 900px) {
+    nav ul { display: none; }
+    .menu-btn { display: block; }
+    nav ul.open {
+      display: flex;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: var(--paper);
+      flex-direction: column;
+      padding: 24px;
+      gap: 20px;
+      border-bottom: 1px solid var(--line);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.06);
+    }
+    nav ul.open .cta-phone { width: 100%; justify-content: center; }
+    .hero { padding: 70px 0 80px; }
+    .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+    .hero-mark { max-width: 320px; margin: 0 auto; }
+    .hero-stats { gap: 24px; flex-wrap: wrap; }
+    .service-grid { grid-template-columns: repeat(2, 1fr); }
+    .about-grid, .area-grid { grid-template-columns: 1fr; gap: 48px; }
+    .steps { grid-template-columns: repeat(2, 1fr); gap: 40px; }
+    .quote-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+    .est-card .year { font-size: 100px; }
+    .top-bar .sep { display: none; }
+    .top-bar span { display: block; padding: 2px 0; }
+  }
+  @media (max-width: 520px) {
+    .service-grid { grid-template-columns: 1fr; }
+    .steps { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr; }
+    .hero-stats { flex-direction: column; gap: 20px; }
+    .brand-text .top { font-size: 17px; }
+    .brand-text .bot { font-size: 9px; }
+  }
+
+  /* ---------- REVEAL ANIMATION ---------- */
+  .reveal { opacity: 0; transform: translateY(20px); transition: opacity .8s ease, transform .8s ease; }
+  .reveal.in { opacity: 1; transform: none; }
+</style>
+</head>
+<body>
+
+<!-- Reusable star + logo SVG defs -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e7c87d"/>
+      <stop offset="50%" stop-color="#c9a961"/>
+      <stop offset="100%" stop-color="#8a6f3a"/>
+    </linearGradient>
+    <symbol id="star" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M12 2l2.9 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.5 21.7l1.8-7.3L1.6 9.5l7.5-.6L12 2z"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="wrap">
+    <span><strong>Family Owned &amp; Operated Since 1996</strong></span>
+    <span class="sep">|</span>
+    <span>Carpet • Tile • Furniture • Rugs</span>
+    <span class="sep">|</span>
+    <span>Call <strong>562-397-3993</strong></span>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="site">
+  <div class="wrap nav">
+    <a href="#" class="brand" aria-label="All Star Carpet Care home">
+      <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="32" cy="32" r="30" fill="#16243f"/>
+        <use href="#star" x="14" y="14" width="36" height="36" style="color: url(#goldGrad)"/>
+      </svg>
+      <span class="brand-text">
+        <span class="top">All Star Carpet Care</span>
+        <span class="bot">Family Owned · Since 1996</span>
+      </span>
+    </a>
+    <nav>
+      <button class="menu-btn" aria-label="Menu" onclick="document.getElementById('navlist').classList.toggle('open')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul id="navlist">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#area">Service Area</a></li>
+        <li><a class="cta-phone" href="tel:5623973993">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          562-397-3993
+        </a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="reveal">
+      <div class="eyebrow">Long Beach &amp; Surrounding Areas</div>
+      <h1>
+        Spotless carpets.
+        <em>Honest work.</em>
+        Since 1996.
+      </h1>
+      <p class="lede">
+        For thirty years, families across the South Bay have trusted us with their carpets, tile, upholstery, and area rugs. No upsells. No surprises. Just deep, professional cleaning from a crew that treats your home like our own.
+      </p>
+      <div class="hero-ctas">
+        <a class="btn btn-gold" href="tel:5623973993">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call for a Free Quote
+        </a>
+        <a class="btn btn-outline" href="#services">See What We Clean</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><div class="num">30+</div><div class="label">Years in Business</div></div>
+        <div class="stat"><div class="num">10k+</div><div class="label">Homes Cleaned</div></div>
+        <div class="stat"><div class="num">100%</div><div class="label">Family Owned</div></div>
+      </div>
+    </div>
+
+    <div class="hero-mark reveal">
+      <div class="ring">
+        <!-- big logo lockup -->
+        <svg class="big-logo" viewBox="0 0 280 320" aria-label="All Star Carpet Care">
+          <!-- shield backdrop -->
+          <path d="M40 30 L240 30 Q255 30 255 45 L255 215 Q255 235 235 250 L150 305 Q140 312 130 305 L45 250 Q25 235 25 215 L25 45 Q25 30 40 30 Z"
+                fill="#0f1a2e" stroke="#1f3050" stroke-width="2"/>
+          <!-- big gold star -->
+          <g transform="translate(54, 70)">
+            <path d="M44 0 L54 32 L88 32 L60 52 L70 84 L44 64 L18 84 L28 52 L0 32 L34 32 Z"
+                  fill="url(#goldGrad)" stroke="#8a6f3a" stroke-width="1"/>
+            <circle cx="22" cy="20" r="2.5" fill="#fff" opacity="0.9"/>
+            <circle cx="22" cy="20" r="5" fill="#fff" opacity="0.25"/>
+          </g>
+          <!-- broom over star -->
+          <g transform="translate(98, 88)" stroke="#8a6f3a" fill="#c9a961">
+            <rect x="0" y="0" width="3" height="60" fill="#8a6f3a"/>
+            <path d="M-8 60 L11 60 L13 78 L-10 78 Z" fill="url(#goldGrad)" stroke-width="0.8"/>
+            <line x1="-6" y1="62" x2="-7" y2="76" stroke="#5e4a23" stroke-width="0.5"/>
+            <line x1="-2" y1="62" x2="-3" y2="76" stroke="#5e4a23" stroke-width="0.5"/>
+            <line x1="2" y1="62" x2="2" y2="76" stroke="#5e4a23" stroke-width="0.5"/>
+            <line x1="6" y1="62" x2="7" y2="76" stroke="#5e4a23" stroke-width="0.5"/>
+            <line x1="10" y1="62" x2="11" y2="76" stroke="#5e4a23" stroke-width="0.5"/>
+          </g>
+          <!-- ALL STAR text -->
+          <text x="148" y="115" font-family="Fraunces, serif" font-size="34" font-weight="900" fill="#f5efe3" letter-spacing="-1">ALL</text>
+          <text x="148" y="152" font-family="Fraunces, serif" font-size="34" font-weight="900" fill="#f5efe3" letter-spacing="-1">STAR</text>
+          <!-- maroon bar -->
+          <rect x="35" y="180" width="210" height="40" rx="3" fill="#8b2635" stroke="#6b1c28"/>
+          <text x="140" y="207" font-family="Outfit, sans-serif" font-size="20" font-weight="700" fill="#f5efe3" text-anchor="middle" letter-spacing="2">CARPET CARE</text>
+          <!-- since 1996 -->
+          <text x="140" y="265" font-family="Fraunces, serif" font-style="italic" font-size="14" fill="#c9a961" text-anchor="middle">Family Owned Since 1996</text>
+          <!-- decorative stars -->
+          <use href="#star" x="50" y="252" width="10" height="10" style="color:#c9a961"/>
+          <use href="#star" x="220" y="252" width="10" height="10" style="color:#c9a961"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">What We Clean</div>
+      <h2>Four specialties. <em>One standard.</em></h2>
+      <p>From wall-to-wall carpet to heirloom rugs, we use truck-mounted equipment and the right cleaning agent for the job — never a one-size-fits-all approach.</p>
+    </div>
+
+    <div class="service-grid">
+      <div class="svc-card reveal">
+        <div class="svc-num">01</div>
+        <div class="svc-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="16" rx="1"/>
+            <line x1="3" y1="9" x2="21" y2="9"/>
+            <line x1="3" y1="14" x2="21" y2="14"/>
+            <line x1="9" y1="4" x2="9" y2="20"/>
+            <line x1="15" y1="4" x2="15" y2="20"/>
+          </svg>
+        </div>
+        <h3>Carpet</h3>
+        <p>Hot-water extraction that pulls out years of dirt, allergens, and traffic-lane wear. Dries in hours, not days.</p>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-num">02</div>
+        <div class="svc-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="7" height="7"/>
+            <rect x="14" y="3" width="7" height="7"/>
+            <rect x="3" y="14" width="7" height="7"/>
+            <rect x="14" y="14" width="7" height="7"/>
+          </svg>
+        </div>
+        <h3>Tile &amp; Grout</h3>
+        <p>Grout lines restored to their original color. Optional color-seal to keep stains from ever coming back.</p>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-num">03</div>
+        <div class="svc-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 18v-6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v6"/>
+            <path d="M2 18h20v3H2z"/>
+            <path d="M6 9V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v3"/>
+          </svg>
+        </div>
+        <h3>Furniture</h3>
+        <p>Sofas, sectionals, dining chairs, mattresses. Fabric-safe cleaning for every upholstery type, including delicates.</p>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-num">04</div>
+        <div class="svc-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="5" width="18" height="14" rx="2"/>
+            <path d="M3 9h18M7 5v14M17 5v14"/>
+          </svg>
+        </div>
+        <h3>Area Rugs</h3>
+        <p>From wool to silk to synthetic. In-home or in-plant cleaning with pickup and delivery available.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT / EST 1996 -->
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div class="about-visual reveal">
+      <div class="est-card">
+        <div class="since">— Established —</div>
+        <div class="year">19<span>96</span></div>
+        <div class="tag">Three Decades of Service</div>
+        <div class="stars-row">
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-copy reveal">
+      <div class="eyebrow" style="color: var(--maroon)">Our Story</div>
+      <h2>A family business, <em>built on doorsteps.</em></h2>
+      <p>We started All Star Carpet Care in 1996 with one van, one phone line, and a simple promise: do the work right, charge what's fair, and treat every customer the way we'd want to be treated.</p>
+      <p>Three decades later, that promise hasn't changed. We still answer our own phones. We still show up when we say we will. And we still clean carpets the way they ought to be cleaned — thoroughly, with care, and with the kind of attention you only get from people who own the company they work for.</p>
+      <div class="signature">
+        Thirty years. Same family. Same standards.
+        <small>— The All Star Carpet Care Team</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process" id="process">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">How It Works</div>
+      <h2>Simple, transparent, <em>start to finish.</em></h2>
+      <p>No bait-and-switch. No surprise charges. Here's exactly how every job goes.</p>
+    </div>
+
+    <div class="steps">
+      <div class="step reveal">
+        <div class="step-num">i.</div>
+        <h4>Honest Quote</h4>
+        <p>Call us. Tell us what needs cleaning. We give you a clear, no-pressure price over the phone — usually within five minutes.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">ii.</div>
+        <h4>We Arrive On Time</h4>
+        <p>Uniformed, equipped, and on schedule. Your home is walked, problem areas noted, and everything is confirmed before we start.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">iii.</div>
+        <h4>Deep Clean</h4>
+        <p>Pre-treatment, hot-water extraction, spot work, and a careful inspection. We don't pack up until you're happy.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">iv.</div>
+        <h4>Dries in Hours</h4>
+        <p>Modern equipment means most carpets are walk-ready the same afternoon. We'll tell you exactly when to expect it dry.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="reviews">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">What Our Neighbors Say</div>
+      <h2>Three decades of <em>five-star service.</em></h2>
+      <p>We've earned our reputation one living room at a time.</p>
+    </div>
+
+    <div class="quote-grid">
+      <div class="quote-card reveal">
+        <div class="stars">
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+        </div>
+        <blockquote>"Used them for our living room and stairs. Old red wine stain we'd given up on — completely gone. Friendly, professional, and the price was exactly what they quoted."</blockquote>
+        <div class="author">
+          <div class="avatar">MR</div>
+          <div>
+            <div class="name">Maria R.</div>
+            <div class="meta">Lakewood, CA</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote-card reveal">
+        <div class="stars">
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+        </div>
+        <blockquote>"I've used All Star for over fifteen years. They've cleaned every carpet in three different houses for us. Never once a complaint. They're family at this point."</blockquote>
+        <div class="author">
+          <div class="avatar">DK</div>
+          <div>
+            <div class="name">David K.</div>
+            <div class="meta">Long Beach, CA</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote-card reveal">
+        <div class="stars">
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+          <svg viewBox="0 0 24 24"><use href="#star"/></svg>
+        </div>
+        <blockquote>"Booked same-day for our tile and grout. The kitchen floor looks like it did when we moved in. Honest pricing, no upsells, just great work."</blockquote>
+        <div class="author">
+          <div class="avatar">JT</div>
+          <div>
+            <div class="name">Jennifer T.</div>
+            <div class="meta">Cerritos, CA</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE AREA -->
+<section class="area" id="area">
+  <div class="wrap area-grid">
+    <div class="reveal">
+      <div class="eyebrow" style="color: var(--maroon)">Where We Work</div>
+      <h2>Proudly serving <em>the 562.</em></h2>
+      <p>Based in Long Beach, we cover the entire South Bay and surrounding Los Angeles and Orange County neighborhoods. If you're not sure whether we come to you, just call — chances are, we already do.</p>
+      <div class="city-list">
+        <span class="city primary">Long Beach</span>
+        <span class="city">Lakewood</span>
+        <span class="city">Cerritos</span>
+        <span class="city">Bellflower</span>
+        <span class="city">Norwalk</span>
+        <span class="city">Downey</span>
+        <span class="city">Signal Hill</span>
+        <span class="city">Seal Beach</span>
+        <span class="city">Los Alamitos</span>
+        <span class="city">Cypress</span>
+        <span class="city">La Palma</span>
+        <span class="city">Artesia</span>
+        <span class="city">Hawaiian Gardens</span>
+        <span class="city">Paramount</span>
+      </div>
+    </div>
+
+    <div class="reveal" style="text-align:center;">
+      <!-- map-like SVG -->
+      <svg viewBox="0 0 400 400" style="max-width: 420px; width: 100%; height: auto;">
+        <defs>
+          <radialGradient id="mapGlow" cx="50%" cy="50%">
+            <stop offset="0%" stop-color="#c9a961" stop-opacity="0.25"/>
+            <stop offset="100%" stop-color="#c9a961" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <circle cx="200" cy="200" r="180" fill="url(#mapGlow)"/>
+        <circle cx="200" cy="200" r="160" fill="none" stroke="#16243f" stroke-opacity="0.15" stroke-dasharray="3 6"/>
+        <circle cx="200" cy="200" r="110" fill="none" stroke="#16243f" stroke-opacity="0.2" stroke-dasharray="3 6"/>
+        <circle cx="200" cy="200" r="60" fill="none" stroke="#16243f" stroke-opacity="0.3" stroke-dasharray="3 6"/>
+        <!-- dots -->
+        <g fill="#16243f">
+          <circle cx="200" cy="200" r="8" fill="#8b2635"/>
+          <circle cx="200" cy="200" r="14" fill="none" stroke="#8b2635" stroke-width="2" opacity="0.4">
+            <animate attributeName="r" from="14" to="40" dur="2.5s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" from="0.5" to="0" dur="2.5s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="140" cy="160" r="3"/>
+          <circle cx="250" cy="150" r="3"/>
+          <circle cx="270" cy="220" r="3"/>
+          <circle cx="160" cy="260" r="3"/>
+          <circle cx="120" cy="220" r="3"/>
+          <circle cx="220" cy="280" r="3"/>
+          <circle cx="290" cy="180" r="3"/>
+          <circle cx="100" cy="180" r="3"/>
+          <circle cx="180" cy="120" r="3"/>
+          <circle cx="240" cy="290" r="3"/>
+        </g>
+        <text x="200" y="350" text-anchor="middle" font-family="Fraunces, serif" font-style="italic" font-size="16" fill="#16243f" font-weight="600">Long Beach &amp; the South Bay</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- BIG CTA -->
+<section class="big-cta">
+  <div class="wrap">
+    <div class="reveal">
+      <h2>Ready for floors that <em>feel new again?</em></h2>
+      <p>Pick up the phone. We'll give you an honest quote in five minutes — and most weeks, we can be at your door tomorrow.</p>
+      <div class="phone-num"><a href="tel:5623973993">562 · 397 · 3993</a></div>
+      <div class="phone-sub">Monday–Saturday · 8am to 6pm</div>
+      <div class="cta-buttons">
+        <a class="btn btn-gold" href="tel:5623973993">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call Now
+        </a>
+        <a class="btn btn-outline" href="sms:5623973993">Text Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="brand">
+          <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true">
+            <circle cx="32" cy="32" r="30" fill="#0f1a2e" stroke="#1f3050"/>
+            <use href="#star" x="14" y="14" width="36" height="36" style="color: url(#goldGrad)"/>
+          </svg>
+          <span class="brand-text">
+            <span class="top" style="color: var(--cream)">All Star Carpet Care</span>
+            <span class="bot" style="color: var(--gold-bright)">Family Owned · Since 1996</span>
+          </span>
+        </a>
+        <p>Three decades cleaning carpets, tile, furniture and rugs for families across Long Beach and the South Bay. One family, one promise, one job done right.</p>
+      </div>
+
+      <div>
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services">Carpet Cleaning</a></li>
+          <li><a href="#services">Tile &amp; Grout</a></li>
+          <li><a href="#services">Upholstery</a></li>
+          <li><a href="#services">Area Rugs</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#process">Our Process</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#area">Service Area</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:5623973993">562-397-3993</a></li>
+          <li><a href="sms:5623973993">Text us</a></li>
+          <li>Mon–Sat · 8am–6pm</li>
+          <li>Serving the 562 &amp; surrounding</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="legal">
+      <div>© 1996–2026 All Star Carpet Care. All rights reserved.</div>
+      <div>Licensed · Insured · Family Owned</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Simple reveal-on-scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // Close mobile menu on link click
+  document.querySelectorAll('#navlist a:not(.cta-phone)').forEach(a => {
+    a.addEventListener('click', () => document.getElementById('navlist').classList.remove('open'));
+  });
+</script>
+
+</body>
+</html>
